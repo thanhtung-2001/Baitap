@@ -9,14 +9,14 @@
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Sign In"
-        android:textSize="40dp"
+        android:textSize="40sp"
         android:textColor="#8E54E8"/>
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:text="Donec facilisis tortor ut auguo lacinia, at viorra oat sompor, Sod sapion"
-        android:textSize="18dp"
+        android:textSize="18sp"
         android:textColor="#8E54E8"
         android:layout_marginTop="20dp"
         android:layout_marginBottom="50dp"/>
@@ -81,7 +81,7 @@
                 android:layout_height="match_parent"
                 android:text="Remember me"
                 android:textColor="#8E54E8"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:layout_weight="1"/>
 
             <TextView
@@ -89,7 +89,7 @@
                 android:layout_height="match_parent"
                 android:text="forgot password?"
                 android:textColor="#8E54E8"
-                android:textSize="15dp"
+                android:textSize="15sp"
                 android:gravity="right|center"
                 android:layout_weight="1"/>
         </LinearLayout>
