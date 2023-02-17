@@ -29,43 +29,31 @@
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
-            android:weightSum="10">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/username"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"/>
+            android:orientation="vertical">
 
             <EditText
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/edUsername"
                 android:hint="username"
-                android:textColorHint="#8E54E8"
-                android:layout_weight="9"/>
+                android:drawableStart="@drawable/baseline_alternate_email_24"
+                android:drawablePadding="10dp"
+                android:textColorHint="#8E54E8"/>
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:orientation="horizontal"
-            android:weightSum="10">
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:src="@drawable/password"
-                android:layout_marginTop="10dp"
-                android:layout_marginBottom="10dp"
-                android:layout_weight="1"/>
+            android:orientation="vertical">
 
             <EditText
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="match_parent"
+                android:id="@+id/edPassword"
                 android:hint="password"
+                android:inputType="textPassword"
+                android:drawableStart="@drawable/baseline_key_24"
+                android:drawablePadding="10dp"
                 android:textColorHint="#8E54E8"
                 android:layout_weight="9"/>
         </LinearLayout>
